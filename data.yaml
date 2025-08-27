@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [10, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+nc: 4
+names: ['fate', 'head', 'heart', 'life']
+
+roboflow:
+  workspace: dstu-dfliv
+  project: palm-lines-recognition
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dstu-dfliv/palm-lines-recognition/dataset/10

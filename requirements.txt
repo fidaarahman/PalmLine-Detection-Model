@@ -1,0 +1,9 @@
+ultralytics==8.0.20       # YOLOv8 core library
+torch>=1.13               # PyTorch backend
+opencv-python             # For image loading and processing
+numpy                     # Required for numerical ops
+
+# Optional (include only if you're using these)
+ onnx                     # If you're exporting YOLO model to ONNX
+ tensorflow               # If you're using TFLite conversion
+ pillow                   # For image format support
