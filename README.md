@@ -46,6 +46,14 @@ yolo task=detect mode=predict model=best.pt source="path/to/your/image.jpg"
 
 <img width="322" height="403" alt="image" src="https://github.com/user-attachments/assets/fef847b1-3e63-47a5-8665-72fe5d29ad5a" />
 
+## 📊 Dataset
+
+This model was trained using the **Palm Lines Recognition Dataset** from [Roboflow](https://universe.roboflow.com/) 🖐️.  
+The dataset contains **~3k images** annotated for palm line detection.
+
+- Source: [Palm Lines Recognition Dataset on Roboflow](<https://universe.roboflow.com/dstu-dfliv/palm-lines-recognition>)
+- Classes: Palm lines
+- Images: 3,000+ labeled images
 
 ### 📥 Model Weights
 
