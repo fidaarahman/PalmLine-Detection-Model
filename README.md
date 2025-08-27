@@ -44,7 +44,8 @@ yolo task=detect mode=predict model=best.pt source="path/to/your/image.jpg"
 
 ### 🖼️ Results
 
-Add an example detection result image here and reference it in the README, e.g. `resuts/example.png`.
+<img width="322" height="403" alt="image" src="https://github.com/user-attachments/assets/fef847b1-3e63-47a5-8665-72fe5d29ad5a" />
+
 
 ### 📥 Model Weights
 
@@ -52,21 +53,6 @@ You can download the trained model weights from Google Drive:
 
 [Download Model](https://drive.google.com/your-model-link-here)
 
-Place the model file (e.g., `best.pt`) inside your project directory before running inference.
-
-### 📂 Project Structure
-
-```bash
-PalmLine-Detection-Model/
-│── resuts/                 # Training & validation results
-│── scripts/                # Utility scripts
-│── tf_model/               # TensorFlow exported model
-│── yolov8s_saved_model/    # Saved YOLOv8 model
-│── data.yaml               # Dataset configuration
-│── requirements.txt        # Python dependencies
-│── .gitattributes
-│── README.md               # Project documentation
-```
 
 ### 🙌 Acknowledgements
 
@@ -76,6 +62,6 @@ PalmLine-Detection-Model/
 ### 👤 Author
 
 - **Name**: Fida ur Rahman
-- **Email**: your.email@example.com
-- **LinkedIn/Portfolio**: https://your-link-here
+- **Email**: fidaurrahman700@gmail.com
+- **LinkedIn**: www.linkedin.com/in/fidarh24
 
